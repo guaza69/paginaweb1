@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li { 
+    margin: 0 20px;
+
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    ;
+}
+
+.content {
+    flex: 1  1 60%;
+    padding:  20px;
+}
+
+
+.image-container{
+    flex:  1 1 35%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1px; /* Cambia el tamaño según lo necesites */
+    height: auto; /* Mantiene la proporción original */
+}
+
+.servicios{
+    padding: 50px 20px;
+    text-align: center;
+}
+h2{
+    margin-bottom: 20px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.card{
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(12, 143, 12);
+    max-width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s ease ;
+} 
+
+.card img{
+    padding: 15px;
+}
+
+.card-content{
+    margin-bottom: 10px;
+    font-size: 1.5em
+}
+.card h3{
+    
+}
